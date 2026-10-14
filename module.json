@@ -1,0 +1,639 @@
+{
+  "id": "SD-1",
+  "title": "Axecleft's Shared Data",
+  "version": "1.11.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315",
+    "maximum": "11.315"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "D35E",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.4.3",
+          "verified": "2.4.3"
+        }
+      }
+    ]
+  },
+  "manifest": "https://github.com/Axecleft/Shared-Data-for-v11/releases/latest/download/module.json",
+  "download": "https://github.com/Axecleft/Shared-Data-for-v11/releases/download/1.11.0/module.zip",
+  "url": "https://github.com/Axecleft/Shared-Data-for-v11",
+  "authors": [
+    {
+      "name": "Axecleft",
+      "discord": "axecleft",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/backup.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packFolders": [
+    {
+      "name": "Axecleft's Shared Data",
+      "sorting": "a",
+      "color": "#3b24f0",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Actors",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "bestiary",
+            "minions-familiars-animal-companions",
+            "sample-characters",
+            "summoned-bestiary",
+            "traps"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Adventures",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "blank"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Card Stacks",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "blank"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Items",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "armor-and-shields",
+            "class-abilities",
+            "classes",
+            "common-auras",
+            "common-buffs",
+            "damage-types",
+            "enhancements",
+            "feats",
+            "intelligent-item-powers",
+            "item-buffs",
+            "items",
+            "magic-items",
+            "materials",
+            "minion-classes",
+            "natural-attacks",
+            "powers",
+            "races",
+            "racial-abilities",
+            "racial-hd",
+            "spell-items",
+            "spell-schools-and-domains",
+            "spell-like-abilities",
+            "spells",
+            "templates",
+            "weapons-and-ammo"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Journal Entries",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "conditions",
+            "documentation"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Macros",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "sample-macros"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Playlists",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "playlists"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Roll Tables",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "intelligent-item-tables",
+            "item-roll-tables",
+            "roll-tables",
+            "summoning-roll-tables"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Scenes",
+          "sorting": "a",
+          "color": "#1f08c9",
+          "packs": [
+            "scenes"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "races",
+      "label": "Races",
+      "path": "packs/races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "class-abilities",
+      "label": "Class Abilities",
+      "path": "packs/class-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "minions-familiars-animal-companions",
+      "label": "Minions (Familiars, Animal Companions)",
+      "path": "packs/minions-familiars-animal-companions",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "sample-characters",
+      "label": "Sample Characters",
+      "path": "packs/sample-characters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "summoned-bestiary",
+      "label": "Summoned Bestiary",
+      "path": "packs/summoned-bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "traps",
+      "label": "Traps",
+      "path": "packs/traps",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "minion-classes",
+      "label": "Minion Classes",
+      "path": "packs/minion-classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "common-buffs",
+      "label": "Common Buffs",
+      "path": "packs/common-buffs",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "spell-items",
+      "label": "Spell Items",
+      "path": "packs/spell-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "magic-items",
+      "label": "Magic Items",
+      "path": "packs/magic-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "common-auras",
+      "label": "Common Auras",
+      "path": "packs/common-auras",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "item-buffs",
+      "label": "Item Buffs",
+      "path": "packs/item-buffs",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "racial-abilities",
+      "label": "Racial Abilities",
+      "path": "packs/racial-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "natural-attacks",
+      "label": "Natural Attacks",
+      "path": "packs/natural-attacks",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "spell-like-abilities",
+      "label": "Spell-Like Abilities",
+      "path": "packs/spell-like-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "spell-schools-and-domains",
+      "label": "Spell Schools and Domains",
+      "path": "packs/spell-schools-and-domains",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "templates",
+      "label": "Templates",
+      "path": "packs/templates",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "powers",
+      "label": "Powers",
+      "path": "packs/powers",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "armor-and-shields",
+      "label": "Armor and Shields",
+      "path": "packs/armor-and-shields",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "enhancements",
+      "label": "Enhancements",
+      "path": "packs/enhancements",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "weapons-and-ammo",
+      "label": "Weapons and Ammo",
+      "path": "packs/weapons-and-ammo",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "racial-hd",
+      "label": "Racial HD",
+      "path": "packs/racial-hd",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "materials",
+      "label": "Materials",
+      "path": "packs/materials",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "damage-types",
+      "label": "Damage Types",
+      "path": "packs/damage-types",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "conditions",
+      "label": "Conditions",
+      "path": "packs/conditions",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "documentation",
+      "label": "Documentation",
+      "path": "packs/documentation",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "sample-macros",
+      "label": "Sample Macros",
+      "path": "packs/sample-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "playlists",
+      "label": "Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "item-roll-tables",
+      "label": "Item Roll Tables",
+      "path": "packs/item-roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "intelligent-item-powers",
+      "label": "Intelligent Item Powers",
+      "path": "packs/intelligent-item-powers",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "intelligent-item-tables",
+      "label": "Intelligent Item Tables",
+      "path": "packs/intelligent-item-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "summoning-roll-tables",
+      "label": "Summoning Roll Tables",
+      "path": "packs/summoning-roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    }
+  ],
+  "description": "This is a test description"
+}

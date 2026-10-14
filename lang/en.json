@@ -1,0 +1,73 @@
+{
+  "SD1": {
+    "Settings": {
+      "Menu": {
+        "Name": "Backup & Restore",
+        "Label": "Open Backup & Restore",
+        "Hint": "Back up or restore the Shared Data compendiums manually and compare what is in the world with what is in the backup."
+      },
+      "AutoBackup": {
+        "Name": "Automatic backup",
+        "Hint": "Keep a copy of every Shared Data compendium outside the module folder, so you can update the module without losing your custom content. When it is saved is set by \"Backup timing\" below. When a world loads, any compendium changed since its last backup is saved."
+      },
+      "BackupTiming": {
+        "Name": "Backup timing",
+        "Hint": "After each change: a compendium is saved once you have stopped editing it for the delay below. On a timer: changed compendiums are saved together every few minutes (set below), which causes fewer, larger saves during play. Changes are never forgotten either way: a compendium stays marked until it has been saved, even if Foundry is closed.",
+        "Change": "After each change",
+        "Interval": "On a timer"
+      },
+      "BackupDelay": {
+        "Name": "Delay after a change (seconds)",
+        "Hint": "Used with \"After each change\". How long to wait after the last edit before saving that compendium. A longer delay means fewer saves while you are editing a lot."
+      },
+      "BackupInterval": {
+        "Name": "Timer interval (minutes)",
+        "Hint": "Used with \"On a timer\". How often changed compendiums are saved."
+      },
+      "AutoRestore": {
+        "Name": "Automatic restore",
+        "Hint": "When the world loads, refill any Shared Data compendium that is empty (for example after a module update) from its backup. Compendiums that already contain entries are never touched."
+      },
+      "BackupFolder": {
+        "Name": "Backup folder",
+        "Hint": "Folder inside your Foundry user Data directory where backups are stored. It must NOT be inside the module folder. Use the same folder in every world so they all share one backup."
+      },
+      "ShowIndicator": {
+        "Name": "Show backup activity",
+        "Hint": "Show a small \"Shared Data: backing up…\" label at the top of the screen while a backup or restore is running. Only the GM whose client does the work sees it."
+      }
+    },
+    "Menu": {
+      "Title": "Shared Data: Backup & Restore",
+      "Intro": "Every Shared Data compendium is copied to the backup folder below. After a module update, empty compendiums are refilled from this copy automatically.",
+      "Folder": "Backup folder",
+      "LastBackup": "Last backup",
+      "BackupNow": "Back up now",
+      "RestoreNow": "Restore missing entries",
+      "Refresh": "Refresh",
+      "Compendium": "Compendium",
+      "InWorld": "In module",
+      "InBackup": "In backup",
+      "Updated": "Backed up",
+      "Footnote": "Rows in orange have more entries in the backup than in the module. \"Restore missing entries\" adds them back without changing or deleting anything already in the compendiums.",
+      "RestoreConfirm": "Add every entry from the backup that is missing from the Shared Data compendiums? Existing entries are not changed or deleted."
+    },
+    "Notify": {
+      "BackupDone": "Shared Data: backed up {packs} compendiums ({docs} entries) to Data/{path}.",
+      "BackupErrors": "Shared Data: backup failed for {packs}. See the browser console (F12) for details.",
+      "RestoreDone": "Shared Data: restored {docs} entries into {packs} compendiums from backup ({assets} asset files).",
+      "RestoreNothing": "Shared Data: nothing to restore, every backed-up entry is already in the compendiums.",
+      "RestoreErrors": "Shared Data: restore failed for {packs}. Your backup was not changed. See the browser console (F12) for details.",
+      "BadFolder": "Shared Data: the backup folder is inside the module folder and would be wiped by updates. Choose another folder in Game Settings.",
+      "StartupError": "Shared Data: automatic backup/restore failed. See the browser console (F12) for details."
+    },
+    "Busy": {
+      "Saving": "Shared Data: backing up…",
+      "BackingUp": "Shared Data: backing up {name}…",
+      "Assets": "Shared Data: backing up scene thumbnails…",
+      "Checking": "Shared Data: checking for changes…",
+      "Restoring": "Shared Data: restoring {name}…",
+      "Settling": "Shared Data: waiting for the game system to finish…"
+    }
+  }
+}
